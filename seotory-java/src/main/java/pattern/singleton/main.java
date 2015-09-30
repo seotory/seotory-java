@@ -31,15 +31,17 @@ public class main {
 //		
 //		System.out.println( instance.hashCode() );
 //		System.out.println( instance2.hashCode() );
+		EnumInitialization ei = EnumInitialization.getInstance();
+		System.out.println(ei.test);
 		synchronized (java.lang.Object.class) {
-	        System.out.println("===========µð¹ö±ë ½ÃÀÛÇß´Ù~================");
+	        System.out.println("===========ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ß´ï¿½~================");
 	        System.out.println("time:"
 	                + new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date()));
 	        System.out.print(new Throwable().getStackTrace()[0].getClassName() + "."
 	                + new Throwable().getStackTrace()[0].getMethodName() + "()");
 	        System.out.println("  line: " + new Throwable().getStackTrace()[0].getLineNumber());
 	        //System.out.println(something);
-	        System.out.println("===========µð¹ö±ë ³¡³µ´Ù~================");
+	        System.out.println("===========ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½~================");
 	    }
 	}
 }

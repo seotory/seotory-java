@@ -2,8 +2,9 @@ package pattern.singleton;
 
 public enum EnumInitialization {
 	INSTANCE;
-	
-	public static EnumInitialization doSomething() {
+	static String test = "";
+	public static EnumInitialization getInstance() {
+		test = "test";
 		return INSTANCE;
 	}
 }
