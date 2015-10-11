@@ -4,9 +4,12 @@ package pattern.builder;
  * Created by zion437 on 2015. 10. 11..
  */
 public class Product {
+
+    // parameters..
     private String name;
     private int price;
 
+    // optional parameter
     private boolean isSell;
 
     public String getName() {
@@ -21,6 +24,7 @@ public class Product {
         return isSell;
     }
 
+    // argument -> ProductBuilder instance.
     private Product(ProductBuilder builder) {
         this.name = builder.name;
         this.price = builder.price;
