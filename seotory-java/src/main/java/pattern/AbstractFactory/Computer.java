@@ -21,7 +21,4 @@ public class Computer extends Product {
         return this.price;
     }
 
-    public void toStrig () {
-        System.out.println("항목 :: " + this.name + ", 가격 :: "+ this.price);
-    }
 }
