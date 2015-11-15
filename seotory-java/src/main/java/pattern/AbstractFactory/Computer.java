@@ -1,4 +1,4 @@
-package pattern.AbstractFactory;
+package pattern.abstractFactory;
 
 /**
  * Created by zion437 on 2015. 10. 2..
